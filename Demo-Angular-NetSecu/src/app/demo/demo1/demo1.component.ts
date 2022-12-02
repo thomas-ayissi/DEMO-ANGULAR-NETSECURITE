@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class Demo1Component {
 
+  maVariable : string = "World"
+
+  maVariableClick : string = "Pas Click"
+
+  isActive : boolean = false
+
+
+  maMethodeOnClick() {
+    this.maVariableClick = "Click"
+  }
+
+  reverseIsActive(){
+    this.isActive = !this.isActive
+  }
+
 }
