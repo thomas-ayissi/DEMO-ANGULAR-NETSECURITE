@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { DemoRoutingModule } from './demo-routing.module';
+import { ExerciceRoutingModule } from './exercice-routing.module';
 import { MenuComponent } from './menu/menu.component';
-import { Demo1Component } from './demo1/demo1.component';
+import { Exercice1Component } from './exercice1/exercice1.component';
 
 
 @NgModule({
   declarations: [
     MenuComponent,
-    Demo1Component
+    Exercice1Component
   ],
   imports: [
     CommonModule,
-    DemoRoutingModule
+    ExerciceRoutingModule
   ]
 })
-export class DemoModule { }
+export class ExerciceModule { }
